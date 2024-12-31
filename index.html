@@ -157,7 +157,7 @@ class Firework {
     ] || { count: 100, angleOffset: 0 };
 
     if (explosionType === "text") {
-      const texts = ["Happy New Year", "codepen", "2025"];
+      const texts = ["Happy New Year", "", "2025"];
       const selectedText = texts[Math.floor(Math.random() * texts.length)];
       this.createTextParticles(selectedText, 100);
     } else if (explosionType === "greenStar") {
